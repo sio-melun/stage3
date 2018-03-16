@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.4">
+<meta name="description" content="Situation professionnelle SLAM">
+<meta name="author" content="BTS SIO Lycée Léonard de Vinci">
+<title>Projet Stage3</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./coderay-asciidoctor.css">
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Projet Stage3</h1>
+<div class="details">
+<span id="author" class="author">BTS SIO Lycée Léonard de Vinci</span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">2018-01-06</span>
+<br><span id="revremark">Version asciidoc</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Table des matieres</div>
+<ul class="sectlevel1">
+<li><a href="#présentation">Présentation</a></li>
+<li><a href="#contexte-initial">Contexte initial</a></li>
+<li><a href="#l-existant">L&#8217;existant</a></li>
+<li><a href="#la-mission">La mission</a>
+<ul class="sectlevel2">
+<li><a href="#ce-qui-est-attendu">Ce qui est attendu</a></li>
+<li><a href="#formalité-de-livraison">Formalité de livraison</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="présentation"><a class="anchor" href="#présentation"></a>Présentation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>En classe de troisième, l&#8217;élève est amené à vivre une séquence d&#8217;observation en milieu professionnel.</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>D&#8217;une durée de 3 à 5 jours consécutifs ou non, individuellement ou collectivement,
+le stage de 3e est obligatoire. Conventionné et non rétribué, il se déroule durant l&#8217;année hors vacances scolaires. Ce stage donne à l&#8217;élève l&#8217;occasion de découvrir le monde économique et professionnel, de se confronter aux réalités concrètes du travail et de préciser son projet d&#8217;orientation.</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; http://www.education.gouv.fr/cid107211/le-stage-de-3e.html
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="contexte-initial"><a class="anchor" href="#contexte-initial"></a>Contexte initial</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Le principal du collège "Les Capucins à Melun", M. Fortin, est à l&#8217;orgine de la demande (janvier/février 2018).</p>
+</div>
+<div class="paragraph">
+<p>Il souhaite faciliter l&#8217;accès à la liste des entreprises locales qui accueillent, ou qui ont accueilli dans le passé,
+des élèves de 3eme.</p>
+</div>
+<div class="paragraph">
+<p>Pour cela il a sollicité 2 étudiantes de BTS SIO, Angélique Cottencin et Salomé Thomas, dans le cadre de leur stage de seconde année SLAM,
+afin de produire une solution logiciel métier, de type application web.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="l-existant"><a class="anchor" href="#l-existant"></a>L&#8217;existant</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>À l&#8217;issue de leur stage, une application opérationnelle a été livrée et mise en ligne.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.clg-capucins-melun.fr/Stages/Application/Stage/index.php">http://www.clg-capucins-melun.fr &#8230;&#8203; stage3</a></p>
+</div>
+<div class="paragraph">
+<p>Le projet (code source et dump sql) : <a href="CollegeCapucinsVanilla.zip">CollegeCapucinsVanilla.zip</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="la-mission"><a class="anchor" href="#la-mission"></a>La mission</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dans son état actuel, hormis un bug sur l&#8217;interface d&#8217;accueil (révélé par Firefox), l&#8217;application répond bien à la demande initiale, mais, comme toute application,
+elle est destinée à évoluer (correction de bug, évolution fonctionnelle, optimisation,&#8230;&#8203;).</p>
+</div>
+<div class="paragraph">
+<p>Afin de préparer le terrain des futurs évolutions, un refactoring s&#8217;impose.</p>
+</div>
+<div class="paragraph">
+<p>L&#8217;architecture actuelle a été conçue en PHP, sans framework qui aurait permis d&#8217;intégrer un cadre d&#8217;expertise technique fort.</p>
+</div>
+<div class="paragraph">
+<p>Votre mission consiste à <strong>démarrer le portage de la solution actuelle vers symfony</strong>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+La gestion de l&#8217;authentification n&#8217;est pas demandé (en ce début 2018, le composant FOSUserBundle n&#8217;est pas disponible pour symfony 4)
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/use-case.png" alt="Périmètre attendu de réalisation" width="412" height="552">
+</div>
+<div class="title">Figure 1. Périmètre attendu de réalisation</div>
+</div>
+<div class="sect2">
+<h3 id="ce-qui-est-attendu"><a class="anchor" href="#ce-qui-est-attendu"></a>Ce qui est attendu</h3>
+<div class="paragraph">
+<p>Une <strong>solution opérationnelle</strong>, fonctionnant sous symfony4 et MysSql, (dans la limite de la couverture fonctionnelle définie ci-dessus) ainsi que la production d&#8217;un rapport constitué en deux parties : Analyse et Implémentation</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Rapport d&#8217;analyse</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Diagramme UML d&#8217;analyse des entités du domaine</p>
+</li>
+<li>
+<p>Schéma Relationnel(diagramme de préférence)</p>
+</li>
+<li>
+<p>Diagramme complet des cas d&#8217;utilisation. Les cas d&#8217;utilisation seront mis en avant par une couleur spécifique.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Rapport d&#8217;implémentation</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Schéma organisationnel de la structure du projet (arborescence des dossiers)</p>
+</li>
+<li>
+<p>Extraits d&#8217;implémentation de cas d&#8217;utilisation, contenant des illustrations (copies écran IHM/UI, extrait code source, &#8230;&#8203;)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="formalité-de-livraison"><a class="anchor" href="#formalité-de-livraison"></a>Formalité de livraison</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Date limite : <strong>Vendredi 30 mars 2018 - 23h59</strong></p>
+</li>
+<li>
+<p>Rapport envoyé par mail : <a href="mailto:ocapuozzo@gmail.com">ocapuozzo@gmail.com</a> (qui centralise)</p>
+</li>
+<li>
+<p>Format du rapport : <strong>stage3app- nom(s)-auteur(s).zip</strong> (pas plus de 2 par groupe, avec explications sur la répartition du travail réalisé )</p>
+</li>
+<li>
+<p>Hébergement du projet : github.com (ou autre en mode public)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2018-03-16 14:35:59 CET
+</div>
+</div>
+</body>
+</html>
