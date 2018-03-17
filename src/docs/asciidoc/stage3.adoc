@@ -88,10 +88,10 @@ Une *solution opérationnelle*, fonctionnant sous symfony4 et MysSql, (dans la l
 * Rapport d'analyse
 **  Diagramme UML d'analyse des entités du domaine
 **  Schéma Relationnel(diagramme de préférence)
-**  Diagramme complet des cas d'utilisation. Les cas d'utilisation seront mis en avant par une couleur spécifique.
+**  Diagramme complet des cas d'utilisation. Les cas d'utilisation *implémentés* seront mis en valeur par une couleur de fond spécifique.
 * Rapport d'implémentation
 **  Schéma organisationnel de la structure du projet (arborescence des dossiers)
-**  Extraits d'implémentation de cas d'utilisation, contenant des illustrations (copies écran IHM/UI, extrait code source, ...)
+**  Extraits d'implémentation de cas d'utilisation, contenant des illustrations : copies écran IHM (UI), extrait code source, ...
 
 === Formalité de livraison
 
