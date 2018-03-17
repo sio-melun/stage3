@@ -61,7 +61,7 @@ Votre mission consiste à *démarrer le portage de la solution actuelle vers sym
 
 TIP: La gestion de l'authentification n'est pas demandé (en ce début 2018, le composant FOSUserBundle n'est pas disponible pour symfony 4)
 
-IMPORTANT: En fait, vous êtes libre d'aller aller au delà même d'un refactoring; N'hésitez pas à revoir aussi bien le modèle de données que les choix ergonomiques UX/UI de Salomé et Angéllique.
+IMPORTANT: En fait, vous êtes libre d'aller aller au delà même d'un refactoring; N'hésitez pas à revoir aussi bien le modèle de données que les choix ergonomiques UX/UI de Salomé et Angélique.
 
 
 .Périmètre fonctionnel attendu pour cette mission
