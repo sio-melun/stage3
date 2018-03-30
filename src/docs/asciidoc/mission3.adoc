@@ -97,7 +97,7 @@ Une *solution opérationnelle*, fonctionnant sous symfony4 et MysSql, (dans la l
 
 === Formalité de livraison
 
-*  Date limite : *Vendredi 30 mars 2018 - 23h59*
+*  Date limite : Vendredi 30 mars 2018 - 23h59 REPOUSSÉE à *Lundi 02 mars 2018 - 23h59*
 *  Rapport envoyé par mail : ocapuozzo@gmail.com (qui centralise)
 *  Format du rapport : *stage3app- nom(s)-auteur(s).zip* (pas plus de 2 par groupe, avec explications sur la répartition du travail réalisé )
 *  Hébergement du projet : github.com (ou autre en mode public)
