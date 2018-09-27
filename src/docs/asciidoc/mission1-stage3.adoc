@@ -104,8 +104,7 @@ Vous produirez un travail en deux phases : *analyse initiale* et *première rel
 
 ====
 [start=1]
-
-. Dossier d’analyse (projet + nom de l’équipe) comportant :
+ . Dossier d’analyse (projet + nom de l’équipe) comportant :
 
     • Présentation des membres de l’équipe
     • Expression des besoins sous la forme d’un diagramme de cas d’utilisation
@@ -118,8 +117,7 @@ Après validation par vos professeurs, vous passez à la phase 2.
 
 ====
 [start=2]
-
-. Dossier d’analyse et release 1 (projet + nom de l’équipe)
+ . Dossier d’analyse et release 1 (projet + nom de l’équipe)
  comportant : (votre analyse a peut-être évolué depuis la phase d'analyse intitiale)
 
     • Présentation des membres de l’équipe
