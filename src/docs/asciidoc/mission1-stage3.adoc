@@ -63,9 +63,7 @@ Voici quelques cas d’utilisation envisagés :
 
 == L'existant
 
-Liste d'entreprises locales partenaires.
-
-link:Entreprise.csv[liste des entreprises .csv]
+Liste d'entreprises locales partenaires : link:Entreprise.csv[Entreprise.csv]
 
 
 .Diagramme de cas d'utilisation (périmètre fonctionnel à compléter)
