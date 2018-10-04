@@ -131,7 +131,7 @@ Après validation par vos professeurs, vous passez à la phase 2.
     **	login: _eleve_
     *** pw: à communiquer
 
-Date butoir de livraison : *jeudi 18 novembre 2018* (avant les vacances de Toussaint)
+Date butoir de livraison : *jeudi 18 octobre 2018* (avant les vacances de Toussaint)
 ====
 
 
