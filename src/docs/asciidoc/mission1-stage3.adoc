@@ -106,7 +106,7 @@ Vous produirez un travail en deux phases : *analyse initiale* et *première rel
 
     • Présentation des membres de l’équipe
     • Expression des besoins sous la forme d’un diagramme de cas d’utilisation
-    • Analyse du domaine métier (diagramme de classe Entité)
+    • Analyse du domaine métier (diagramme de classes Entité)
 
 Après validation par vos professeurs, vous passez à la phase 2.
 
@@ -120,18 +120,16 @@ Après validation par vos professeurs, vous passez à la phase 2.
 
     • Présentation des membres de l’équipe
     • Expression des besoins sous la forme d’un diagramme de cas d’utilisation
-    • Analyse du domaine métier (diagramme de classe Entité)
-    • Schéma d’organisation de votre code
+    • Analyse du domaine métier (diagramme de classes Entité)
+    • Schéma d’organisation de votre code (extrait de l'arborescence)
     • Exemples choisis d’implémentation de cas d’utilisation (uses case, GUI html, code behind)
-    • URL de déploiement avec les identités
-    **	login: _admin_
-    ***   pw: à communiquer
-    **	login: _prof_
-    *** pw: à communiquer
-    **	login: _eleve_
-    *** pw: à communiquer
 
-Date butoir de livraison : *jeudi 18 octobre 2018* (avant les vacances de Toussaint)
+Date(s) butoir de livraison :
+ le *jeudi 18 octobre 2018* (avant les vacances de Toussaint)
+
+* Votre release est prête : vous livrez un rapport de projet avec un lien vers un dépôt GIT public.
+* Votre release n'est pas aboutie : vous livrez un état des lieux de votre avancement, et vos objectifs de production
+** Livraison finale de la release :  *jeudi 04 octobre 2018 (23h59)* : rapport de projet avec un lien vers un dépôt GIT public.
 ====
 
 
