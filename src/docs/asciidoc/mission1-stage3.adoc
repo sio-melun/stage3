@@ -129,7 +129,7 @@ Date(s) butoir de livraison :
 
 * Votre release est prête : vous livrez un rapport de projet avec un lien vers un dépôt GIT public.
 * Votre release n'est pas aboutie : vous livrez un état des lieux de votre avancement, et vos objectifs de production
-** Livraison finale de la release :  *jeudi 04 octobre 2018 (23h59)* : rapport de projet avec un lien vers un dépôt GIT public.
+** Livraison finale de la release :  *jeudi 04 novembre 2018 (23h59)* : rapport de projet avec un lien vers un dépôt GIT public.
 ====
 
 
